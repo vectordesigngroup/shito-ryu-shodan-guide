@@ -1,9 +1,9 @@
-# Shito-ryu Shodan Study Guide
+# Katsu Dojo Shito-Ryu Black Belt (Shodan) Study Guide
 
-An interactive, phone-friendly study guide for the Shito-ryu karate black belt (shodan) test: flip flashcards, a scored quiz, kata cards, terminology, history, and a 6-week practice plan you can check off.
+An interactive, phone-friendly study guide for the Katsu Dojo black belt (shodan) test. It covers the requirements, the 14 kata in order with their meanings, all stances, techniques and conditioning, Jyu Kumite, flashcards and an oral-test practice quiz built from the official written tests, and a 6-week study plan.
 
 **Live site:** https://vectordesigngroup.github.io/shito-ryu-shodan-guide/
 
 **Printable PDF:** [shito-ryu-shodan-study-guide.pdf](shito-ryu-shodan-study-guide.pdf)
 
-> **Note:** Grading requirements vary by dojo and organization. Confirm the exact katas, kihon, kumite and written requirements for your test with your Sensei.
+Based on the Katsu Dojo Digital Textbook (katsudojo.com). This is an unofficial study aid; your Sensei's instructions always come first. Items marked "Confirm with Sensei" are not fully specified in the textbook.
