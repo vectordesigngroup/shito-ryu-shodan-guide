@@ -1,0 +1,34 @@
+name: Publish site
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Decode PDF
+        run: |
+          if [ -f pdf.b64 ]; then
+            base64 -d pdf.b64 > shito-ryu-shodan-study-guide.pdf
+            git config user.name "github-actions[bot]"
+            git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+            git rm -q pdf.b64
+            git add shito-ryu-shodan-study-guide.pdf
+            git commit -m "Decode study guide PDF"
+            git push origin HEAD:main
+          fi
+      - name: Publish to gh-pages
+        run: |
+          mkdir -p /tmp/site
+          cp index.html shito-ryu-shodan-study-guide.pdf /tmp/site/
+          touch /tmp/site/.nojekyll
+          cd /tmp/site
+          git init -q -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add -A && git commit -q -m "Publish site"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages
