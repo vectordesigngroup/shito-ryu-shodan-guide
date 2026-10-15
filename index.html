@@ -1,4 +1,38 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Katsu Dojo Shito-Ryu Black Belt (Shodan) Study Guide</title><meta name="description" content="Study guide for the Katsu Dojo Shito-Ryu black belt test: 14 kata, kihon, kumite, requirements, flashcards and quiz. Based on the Katsu Dojo Digital Textbook (katsudojo.com). An unofficial study aid; your Sensei's instructions always come first."><style>body{font-family:system-ui,sans-serif;margin:0;color:#1b1b1b;background:#faf8f4;line-height:1.45}header{background:#111;color:#fff;padding:18px}header h1{margin:0;font-size:1.5em}header p{margin:4px 0 0;color:#ccc}
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script>
+(function(){
+  var KEY='katsu-theme';
+  var HREF='https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap';
+  function fonts(on){
+    var id='dojo-fonts',el=document.getElementById(id);
+    if(on){
+      if(!el){
+        el=document.createElement('link');
+        el.id=id;el.rel='stylesheet';el.href=HREF;
+        document.head.appendChild(el);
+      }
+    }else if(el){el.remove();}
+  }
+  function pressed(){
+    var dojo=document.documentElement.classList.contains('theme-dojo');
+    var c=document.getElementById('themeClassic'),d=document.getElementById('themeDojo');
+    if(c)c.setAttribute('aria-pressed',dojo?'false':'true');
+    if(d)d.setAttribute('aria-pressed',dojo?'true':'false');
+  }
+  window.applyStudyTheme=function(theme,persist){
+    var dojo=theme==='dojo';
+    document.documentElement.classList.toggle('theme-dojo',dojo);
+    fonts(dojo);
+    if(persist){try{localStorage.setItem(KEY,dojo?'dojo':'classic')}catch(e){}}
+    pressed();
+  };
+  try{
+    if(localStorage.getItem(KEY)==='dojo'){
+      document.documentElement.classList.add('theme-dojo');
+      fonts(true);
+    }
+  }catch(e){}
+})();
+</script><title>Katsu Dojo Shito-Ryu Black Belt (Shodan) Study Guide</title><meta name="description" content="Study guide for the Katsu Dojo Shito-Ryu black belt test: 14 kata, kihon, kumite, requirements, flashcards and quiz. Based on the Katsu Dojo Digital Textbook (katsudojo.com). An unofficial study aid; your Sensei's instructions always come first."><style>body{font-family:system-ui,sans-serif;margin:0;color:#1b1b1b;background:#faf8f4;line-height:1.45}header{background:#111;color:#fff;padding:18px}header h1{margin:0;font-size:1.5em}header p{margin:4px 0 0;color:#ccc}
 nav{display:flex;flex-wrap:wrap;gap:6px;padding:10px;background:#222;position:sticky;top:0}nav a{color:#fff;text-decoration:none;padding:6px 10px;border-radius:6px;background:#333}nav a:hover{background:#b22}
 main{max-width:980px;margin:auto;padding:12px}section{background:#fff;border-radius:10px;padding:14px 18px;margin:14px 0;box-shadow:0 1px 3px #0002}h2{color:#a11;margin-top:0}
 .kg{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}.kc{border:1px solid #ddd;border-radius:8px;padding:10px;position:relative}.kc .n{float:right;background:#a11;color:#fff;border-radius:50%;width:24px;height:24px;text-align:center;font-size:.85em;line-height:24px}.ck{display:block;margin-top:6px;font-size:.85em}
@@ -6,8 +40,43 @@ main{max-width:980px;margin:auto;padding:12px}section{background:#fff;border-rad
 .card{min-height:150px;border:2px solid #a11;border-radius:12px;display:flex;align-items:center;justify-content:center;text-align:center;padding:18px;font-size:1.15em;cursor:pointer;user-select:none}.card.back{background:#fff4f0}
 button{padding:8px 14px;border:0;border-radius:6px;background:#a11;color:#fff;cursor:pointer;margin:4px}button.g{background:#555}select{padding:6px}.muted{color:#666;font-size:.9em}.plan{list-style:none;padding:0}.plan li{margin:8px 0}
 .qa{margin:10px 0}.qa .ans{display:none;color:#060;margin-top:4px}.qa.show .ans{display:block}footer{text-align:center;color:#666;font-size:.85em;padding:20px}
-@media(max-width:600px){.two{columns:1}}</style></head><body>
-<header><h1>Katsu Dojo Shito-Ryu Black Belt (Shodan) Study Guide</h1><p>Based on the Katsu Dojo Digital Textbook (katsudojo.com). An unofficial study aid; your Sensei's instructions always come first.</p></header><nav><a href="#req">Requirements</a><a href="#kata">Kata</a><a href="#kihon">Kihon</a><a href="#flash">Flashcards</a><a href="#quiz">Quiz</a><a href="#plan">Study plan</a><a href="shito-ryu-shodan-study-guide.pdf">Printable PDF</a></nav><main>
+@media(max-width:600px){.two{columns:1}}
+.headrow{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}.headtext{flex:1;min-width:0}
+.theme-switch{display:flex;flex:0 0 auto;gap:8px}
+.theme-switch button{box-sizing:border-box;min-height:44px;min-width:44px;margin:0;padding:10px 14px;border:2px solid #fff;border-radius:6px;background:transparent;color:#fff;font:inherit;line-height:1.2;white-space:nowrap;cursor:pointer}
+html:not(.theme-dojo) #themeClassic{background:#fff;color:#111;border-color:#fff}
+.theme-switch button:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.okmsg{color:#060}
+@media(max-width:600px){.headrow{flex-direction:column}.theme-switch{width:100%}.theme-switch button{flex:1 1 auto}}
+html.theme-dojo{--navy:#004a87;--navy-ink:#004985;--gold:#FDBF17;--gold-2:#f4b400;--page:#fefefc;--ink:#59595b;--link:#976e00}
+html.theme-dojo body{background:var(--page);color:var(--ink);font-family:"Source Sans Pro",sans-serif}
+html.theme-dojo h1,html.theme-dojo h2,html.theme-dojo h3{font-family:Oxygen,sans-serif}
+html.theme-dojo header{background:var(--navy);color:#fff;border-bottom:2px solid var(--gold)}
+html.theme-dojo header h1{font-weight:700;letter-spacing:.02em}
+html.theme-dojo header p{color:#e7eef5}
+html.theme-dojo nav{background:var(--navy)}
+html.theme-dojo nav a{background:transparent;color:#fff;border:2px solid var(--gold)}
+html.theme-dojo nav a:hover{background:var(--gold);color:var(--navy-ink)}
+html.theme-dojo h2,html.theme-dojo h3{color:var(--navy)}
+html.theme-dojo a{color:var(--link)}
+html.theme-dojo nav a,html.theme-dojo nav a:hover{text-decoration:none}
+html.theme-dojo .kc{border-color:#e4e0d4}
+html.theme-dojo .kc .n{background:var(--gold);color:var(--navy-ink)}
+html.theme-dojo td,html.theme-dojo th{border-color:#e4e0d4}
+html.theme-dojo th{background:var(--navy);color:#fff}
+html.theme-dojo .card{border-color:var(--navy);background:#fff;color:var(--ink)}
+html.theme-dojo .card.back{background:#fff6d8;border-color:var(--gold-2);color:var(--ink)}
+html.theme-dojo button{background:var(--gold);color:var(--navy-ink);border:2px solid var(--navy-ink)}
+html.theme-dojo button.g{background:var(--gold-2);color:var(--navy-ink);border:2px solid var(--navy-ink)}
+html.theme-dojo #no{background:#fff;color:var(--navy-ink);border:2px solid var(--navy-ink)}
+html.theme-dojo .theme-switch button{background:transparent;color:#fff;border:2px solid var(--gold)}
+html.theme-dojo #themeDojo{background:var(--gold);color:var(--navy-ink);border:2px solid var(--navy-ink)}
+html.theme-dojo .theme-switch button:focus-visible{outline-color:var(--gold)}
+html.theme-dojo footer,html.theme-dojo .muted{color:var(--ink)}
+html.theme-dojo select{color:var(--ink);background:#fff;border:2px solid var(--navy);border-radius:6px}
+html.theme-dojo .cf{background:#fff8e6;border-left:4px solid #a11;border-radius:6px;padding:8px 12px}
+</style></head><body>
+<header><div class="headrow"><div class="headtext"><h1>Katsu Dojo Shito-Ryu Black Belt (Shodan) Study Guide</h1><p>Based on the Katsu Dojo Digital Textbook (katsudojo.com). An unofficial study aid; your Sensei's instructions always come first.</p></div><div class="theme-switch" role="group" aria-label="Theme"><button type="button" id="themeClassic" aria-pressed="true">Classic</button><button type="button" id="themeDojo" aria-pressed="false">Dojo look</button></div></div></header><script>applyStudyTheme(document.documentElement.classList.contains('theme-dojo')?'dojo':'classic',false);</script><nav><a href="#req">Requirements</a><a href="#kata">Kata</a><a href="#kihon">Kihon</a><a href="#flash">Flashcards</a><a href="#quiz">Quiz</a><a href="#plan">Study plan</a><a href="shito-ryu-shodan-study-guide.pdf">Printable PDF</a></nav><main>
 <section id="req"><h2>Black Belt (Shodan) Requirements</h2><ul><li>Perform <b>every basic exercise and every kata</b> listed in the textbook (all 14 kata).</li><li>Take <b>all the written tests</b> in the textbook and score <b>100%</b>. From Green/White up, these are given <b>orally</b> in class the Monday or Tuesday before the test, using all the written questions in random order. Every answer must be correct.</li><li>Other areas of the student's progression, both mental and physical, will be tested. The black belt test is private: only black belts may attend.</li><li><b>Age:</b> students 16 and older test for <b>Shodan</b> (1st Degree). Under 16 test for <b>Shodan-Ho</b> (Junior 1st Degree), unless an exception is made for superior ability and dedication. Junior black belts may not sit on the testing board, take part in the black belt test, or receive the title of Sensei.</li><li><b>Attendance:</b> attend almost all advanced classes in the months before the test, and help in beginner and intermediate classes.</li><li><b>Instructor review:</b> in the last two weeks before the test, your instructor reviews all requirements for your level, plus your attitude, manners, out-of-class behavior and school performance. Students who don't follow the five Katsu Dojo Virtues may not test.</li></ul>
 <h3>Confirm with Sensei</h3><ul class="cf"><li>The minimum number of classes required at each belt level (the textbook says a minimum is required but gives no number).</li><li>Whether every rank still uses the same Tanren Ho counts (the book lists 10 of each at every rank).</li><li>Meaning of Sachin-dachi (listed as a stance from Green/Brown up, but not defined in the written tests).</li><li>The Green Belt kanji question (the characters for Japan / kara / te) — practise from the printed textbook.</li><li>The details of Take Down #7, Moving Exercise #2 and the Todi; the textbook only gives the quiz answers.</li><li>How many rounds of Jyu Kumite, and what other &#x27;mental and physical&#x27; areas, are tested at black belt.</li><li>Whether kobudo (weapons) is part of the black belt test — the textbook&#x27;s testing section does not list it.</li></ul></section>
 <section id="kata"><h2>The 14 Kata (in order)</h2><div class="kg"><div class='kc'><span class='n'>1</span><b>Shiho No Kata</b><br><i>Four Direction Kata</i><label class='ck'><input type='checkbox' data-k='kata0'> Can perform</label></div><div class='kc'><span class='n'>2</span><b>Ten No Kata</b><br><i>Heavenly Kata</i><label class='ck'><input type='checkbox' data-k='kata1'> Can perform</label></div><div class='kc'><span class='n'>3</span><b>Kihon No Kata</b><br><i>Basic Kata</i><label class='ck'><input type='checkbox' data-k='kata2'> Can perform</label></div><div class='kc'><span class='n'>4</span><b>Chi No Kata</b><br><i>Earth Kata</i><label class='ck'><input type='checkbox' data-k='kata3'> Can perform</label></div><div class='kc'><span class='n'>5</span><b>Heian Shodan</b><br><i>Peaceful Mind #1</i><label class='ck'><input type='checkbox' data-k='kata4'> Can perform</label></div><div class='kc'><span class='n'>6</span><b>Heian Nidan</b><br><i>Peaceful Mind #2</i><label class='ck'><input type='checkbox' data-k='kata5'> Can perform</label></div><div class='kc'><span class='n'>7</span><b>Heian Sandan</b><br><i>Peaceful Mind #3</i><label class='ck'><input type='checkbox' data-k='kata6'> Can perform</label></div><div class='kc'><span class='n'>8</span><b>Heian Yondan</b><br><i>Peaceful Mind #4</i><label class='ck'><input type='checkbox' data-k='kata7'> Can perform</label></div><div class='kc'><span class='n'>9</span><b>Heian Godan</b><br><i>Peaceful Mind #5</i><label class='ck'><input type='checkbox' data-k='kata8'> Can perform</label></div><div class='kc'><span class='n'>10</span><b>Jitte</b><br><i>Ten Hands</i><label class='ck'><input type='checkbox' data-k='kata9'> Can perform</label></div><div class='kc'><span class='n'>11</span><b>Jin</b><br><i>Named after a spirit</i><label class='ck'><input type='checkbox' data-k='kata10'> Can perform</label></div><div class='kc'><span class='n'>12</span><b>Jion</b><br><i>Named after a temple in China (its temple of origin)</i><label class='ck'><input type='checkbox' data-k='kata11'> Can perform</label></div><div class='kc'><span class='n'>13</span><b>Jyuroku</b><br><i>Sixteen</i><label class='ck'><input type='checkbox' data-k='kata12'> Can perform</label></div><div class='kc'><span class='n'>14</span><b>Rohai</b><br><i>Vision of a white heron</i><label class='ck'><input type='checkbox' data-k='kata13'> Can perform</label></div></div></section>
@@ -32,5 +101,8 @@ document.getElementById('sh').onclick=()=>{deck.sort(()=>Math.random()-.5);i=0;s
 let qz=[],qi=0,right=0;function startQ(){qz=[...Q].sort(()=>Math.random()-.5).slice(0,25);qi=0;right=0;nextQ()}
 function nextQ(){const b=document.getElementById('qbox');if(qi>=qz.length){const p=Math.round(right/qz.length*100);if(p>(st.best||0)){st.best=p;sv()}b.innerHTML='<p><b>Score: '+right+' / '+qz.length+' ('+p+'%)</b>. The oral test needs 100%. Best so far: '+(st.best||0)+'%</p><button onclick="startQ()">Try again</button>';return}
 const q=qz[qi];b.innerHTML='<p class="muted">Question '+(qi+1)+' of '+qz.length+' · '+q.c+'</p><p><b>'+q.q+'</b></p><p>Answer out loud, as in the oral test, then reveal.</p><button id="rv">Reveal answer</button><div id="an"></div>';
-document.getElementById('rv').onclick=()=>{document.getElementById('an').innerHTML='<p style="color:#060">'+q.a+'</p><button id="ok">I got it right</button><button class="g" id="no">I missed it</button>';document.getElementById('ok').onclick=()=>{right++;qi++;nextQ()};document.getElementById('no').onclick=()=>{qi++;nextQ()}}}
-document.getElementById('qs').onclick=startQ;document.getElementById('best').textContent=st.best||0;</script></body></html>
+document.getElementById('rv').onclick=()=>{document.getElementById('an').innerHTML='<p class="okmsg">'+q.a+'</p><button id="ok">I got it right</button><button class="g" id="no">I missed it</button>';document.getElementById('ok').onclick=()=>{right++;qi++;nextQ()};document.getElementById('no').onclick=()=>{qi++;nextQ()}}}
+document.getElementById('qs').onclick=startQ;document.getElementById('best').textContent=st.best||0;
+document.getElementById('themeClassic').onclick=function(){applyStudyTheme('classic',true)};
+document.getElementById('themeDojo').onclick=function(){applyStudyTheme('dojo',true)};
+applyStudyTheme(document.documentElement.classList.contains('theme-dojo')?'dojo':'classic',false);</script></body></html>

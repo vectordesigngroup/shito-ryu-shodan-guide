@@ -4,6 +4,8 @@ An interactive, phone-friendly study guide for the Katsu Dojo black belt (shodan
 
 **Live site:** https://vectordesigngroup.github.io/shito-ryu-shodan-guide/
 
+**Themes:** the header toggle switches between the original Classic look and a Dojo look (off-white page, navy bands, gold accents, Source Sans Pro and Oxygen). The choice is saved in this browser. Classic is the default, and the Dojo fonts load only while that look is on.
+
 **Printable PDF:** [shito-ryu-shodan-study-guide.pdf](shito-ryu-shodan-study-guide.pdf)
 
 Based on the Katsu Dojo Digital Textbook (katsudojo.com). This is an unofficial study aid; your Sensei's instructions always come first. Items marked "Confirm with Sensei" are not fully specified in the textbook.
