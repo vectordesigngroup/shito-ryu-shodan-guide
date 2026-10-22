@@ -1,0 +1,2277 @@
+{
+  "meta": {
+    "title": "Shito-ryu Black Belt Written Exam — Practice Test",
+    "source": "Katsu Dojo Digital Textbook (Third Edition), Part Six 'Written Examinations'",
+    "source_file": "/workspace/karate/katsu-requirements/Katsu-Dojo-Digital-Textbook.pdf (md5 dbb7d0c0805996e0b39ea39d4a8111ae)",
+    "page_mapping": "Printed pages 115–129 = PDF pages 116–130 (printed = PDF − 1). Printed p. 130 does not exist; the PDF ends at printed 129. Printed 115 is the section title page (no testable content).",
+    "pages_are": "printed page numbers",
+    "known_issues": [
+      "Green/Brown test (p. 126) numbering jumps from 11 to 14; questions 12–13 absent from the page.",
+      "'Naga Waza' (p. 120) vs 'Nage Waza' (p. 127).",
+      "Jion meaning worded two ways (p. 127 vs p. 129); Heian meanings 'Peaceful Mind #n' vs '... Kata'.",
+      "Manual spells 'Explaination'; 'Shoto-Kan' (p. 124) vs 'Shotokan' (p. 126).",
+      "Rouhai appears only in the p. 129 list, not as any belt's testing kata."
+    ],
+    "grading": "100% to pass; spelling only has to be close.",
+    "question_count": 59
+  },
+  "questions": [
+    {
+      "id": 1,
+      "section": "A. Karate Basics & History",
+      "type": "short",
+      "prompt": "What type of martial art do you study?",
+      "answer": "Karate",
+      "page": [
+        116,
+        117
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short"
+      }
+    },
+    {
+      "id": 2,
+      "section": "A. Karate Basics & History",
+      "type": "short",
+      "prompt": "What does karate mean?",
+      "answer": "Empty hand",
+      "page": [
+        116,
+        117
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short"
+      }
+    },
+    {
+      "id": 3,
+      "section": "A. Karate Basics & History",
+      "type": "short",
+      "prompt": "What country does karate come from?",
+      "answer": "Japan",
+      "page": [
+        116,
+        117
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short"
+      }
+    },
+    {
+      "id": 4,
+      "section": "A. Karate Basics & History",
+      "type": "short",
+      "prompt": "What island in Japan does karate originate from?",
+      "answer": "Okinawa",
+      "page": 118,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short"
+      }
+    },
+    {
+      "id": 5,
+      "section": "A. Karate Basics & History",
+      "type": "short",
+      "prompt": "What style of karate do you study?",
+      "answer": "Shito-Ryu",
+      "page": 118,
+      "accepted_alternates": [
+        "Shito Ryu",
+        "Shitoryu"
+      ],
+      "note": "",
+      "layout": {
+        "blank": "short"
+      }
+    },
+    {
+      "id": 6,
+      "section": "A. Karate Basics & History",
+      "type": "short",
+      "prompt": "Who is the founder of that style?",
+      "answer": "Kenwa Mabuni",
+      "page": 118,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short"
+      }
+    },
+    {
+      "id": 7,
+      "section": "A. Karate Basics & History",
+      "type": "fill",
+      "prompt": "Who were Kenwa Mabuni's two main instructors?",
+      "parts": [
+        {
+          "label": "i.",
+          "answer": "Yasutsune Itosu",
+          "alternates": [],
+          "page": 127
+        },
+        {
+          "label": "ii.",
+          "answer": "Kanryo Higaonna",
+          "alternates": [],
+          "page": 127
+        }
+      ],
+      "answer": "Yasutsune Itosu; Kanryo Higaonna",
+      "page": 127,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "long",
+        "per_row": 1
+      }
+    },
+    {
+      "id": 8,
+      "section": "A. Karate Basics & History",
+      "type": "fill",
+      "prompt": "What were the three regions of Okinawa that the three original karate styles were named after?",
+      "parts": [
+        {
+          "label": "i.",
+          "answer": "Naha",
+          "alternates": [],
+          "page": 127
+        },
+        {
+          "label": "ii.",
+          "answer": "Shuri",
+          "alternates": [],
+          "page": 127
+        },
+        {
+          "label": "iii.",
+          "answer": "Tomari",
+          "alternates": [],
+          "page": 127
+        }
+      ],
+      "answer": "Naha; Shuri; Tomari",
+      "page": 127,
+      "accepted_alternates": [],
+      "note": "Any order.",
+      "layout": {
+        "blank": "mid",
+        "per_row": 3
+      }
+    },
+    {
+      "id": 9,
+      "section": "A. Karate Basics & History",
+      "type": "fill",
+      "prompt": "What are the four major karate styles in the world?",
+      "parts": [
+        {
+          "label": "i.",
+          "answer": "Shito-Ryu",
+          "alternates": [],
+          "page": 124
+        },
+        {
+          "label": "ii.",
+          "answer": "Shoto-Kan",
+          "alternates": [
+            "Shotokan"
+          ],
+          "page": 124
+        },
+        {
+          "label": "iii.",
+          "answer": "Goju-Ryu",
+          "alternates": [],
+          "page": 124
+        },
+        {
+          "label": "iv.",
+          "answer": "Wado-Ryu",
+          "alternates": [],
+          "page": 124
+        }
+      ],
+      "answer": "Shito-Ryu; Shoto-Kan; Goju-Ryu; Wado-Ryu",
+      "page": 124,
+      "accepted_alternates": [],
+      "note": "Any order. The manual hyphenates 'Shoto-Kan' on p. 124 but writes 'Shotokan' on p. 126.",
+      "layout": {
+        "blank": "mid",
+        "per_row": 2
+      }
+    },
+    {
+      "id": 10,
+      "section": "A. Karate Basics & History",
+      "type": "fill",
+      "prompt": "Who is the founder of each style?",
+      "parts": [
+        {
+          "label": "Shotokan",
+          "answer": "Gichin Funakoshi",
+          "alternates": [],
+          "page": 126
+        },
+        {
+          "label": "Goju-Ryu",
+          "answer": "Chojun Miyagi",
+          "alternates": [],
+          "page": 127
+        },
+        {
+          "label": "Wado-Ryu",
+          "answer": "Hironori Ohtsuka",
+          "alternates": [
+            "Hironori Otsuka"
+          ],
+          "page": 128
+        }
+      ],
+      "answer": "Shotokan: Gichin Funakoshi; Goju-Ryu: Chojun Miyagi; Wado-Ryu: Hironori Ohtsuka",
+      "page": [
+        126,
+        127,
+        128
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "mid",
+        "per_row": 1
+      }
+    },
+    {
+      "id": 11,
+      "section": "A. Karate Basics & History",
+      "type": "short",
+      "prompt": "What does Goju-Ryu mean?",
+      "answer": "Hard-soft way",
+      "page": 127,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short"
+      }
+    },
+    {
+      "id": 12,
+      "section": "A. Karate Basics & History",
+      "type": "short",
+      "prompt": "What does Wado-Ryu mean?",
+      "answer": "Way of peace",
+      "page": 128,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short"
+      }
+    },
+    {
+      "id": 13,
+      "section": "A. Karate Basics & History",
+      "type": "fill",
+      "prompt": "What is the major style of Chinese martial arts, and what does it mean?",
+      "parts": [
+        {
+          "label": "Style",
+          "answer": "Kung Fu",
+          "alternates": [],
+          "page": 126
+        },
+        {
+          "label": "Meaning",
+          "answer": "To be skillful",
+          "alternates": [],
+          "page": 126
+        }
+      ],
+      "answer": "Style: Kung Fu; Meaning: To be skillful",
+      "page": 126,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short",
+        "per_row": 1
+      }
+    },
+    {
+      "id": 14,
+      "section": "A. Karate Basics & History",
+      "type": "fill",
+      "prompt": "What is the major style of Korean martial arts, and what does it mean?",
+      "parts": [
+        {
+          "label": "Style",
+          "answer": "Tae Kwon Do",
+          "alternates": [
+            "Taekwondo"
+          ],
+          "page": 126
+        },
+        {
+          "label": "Meaning",
+          "answer": "Kick punch way",
+          "alternates": [],
+          "page": 126
+        }
+      ],
+      "answer": "Style: Tae Kwon Do; Meaning: Kick punch way",
+      "page": 126,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short",
+        "per_row": 1
+      }
+    },
+    {
+      "id": 15,
+      "section": "A. Karate Basics & History",
+      "type": "short",
+      "prompt": "What martial art organization is Katsu Dojo a member of?",
+      "answer": "USA National Karate-Do Federation",
+      "page": 128,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "long"
+      }
+    },
+    {
+      "id": 16,
+      "section": "B. Rules, Virtues & Principles",
+      "type": "fill",
+      "prompt": "What are the three rules of karate?",
+      "parts": [
+        {
+          "label": "i.",
+          "answer": "Listen and pay attention in class",
+          "alternates": [],
+          "page": [
+            116,
+            117
+          ]
+        },
+        {
+          "label": "ii.",
+          "answer": "Try your best in class",
+          "alternates": [],
+          "page": [
+            116,
+            117
+          ]
+        },
+        {
+          "label": "iii.",
+          "answer": "Never use your karate on anyone unless you're defending yourself",
+          "alternates": [],
+          "page": [
+            116,
+            117
+          ]
+        }
+      ],
+      "answer": "Listen and pay attention in class; Try your best in class; Never use your karate on anyone unless you're defending yourself",
+      "page": [
+        116,
+        117
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "long",
+        "per_row": 1
+      }
+    },
+    {
+      "id": 17,
+      "section": "B. Rules, Virtues & Principles",
+      "type": "fill",
+      "prompt": "What are the five Katsu Dojo Virtues?",
+      "parts": [
+        {
+          "label": "i.",
+          "answer": "Courage",
+          "alternates": [],
+          "page": 118
+        },
+        {
+          "label": "ii.",
+          "answer": "Courtesy",
+          "alternates": [],
+          "page": 118
+        },
+        {
+          "label": "iii.",
+          "answer": "Integrity",
+          "alternates": [],
+          "page": 118
+        },
+        {
+          "label": "iv.",
+          "answer": "Humility",
+          "alternates": [],
+          "page": 118
+        },
+        {
+          "label": "v.",
+          "answer": "Self-Control",
+          "alternates": [],
+          "page": 118
+        }
+      ],
+      "answer": "Courage; Courtesy; Integrity; Humility; Self-Control",
+      "page": 118,
+      "accepted_alternates": [],
+      "note": "Any order.",
+      "layout": {
+        "blank": "mid",
+        "per_row": 3
+      }
+    },
+    {
+      "id": 18,
+      "section": "B. Rules, Virtues & Principles",
+      "type": "fill",
+      "prompt": "What are the three reasons that we kiai?",
+      "parts": [
+        {
+          "label": "i.",
+          "answer": "Scare your opponent",
+          "alternates": [],
+          "page": 119
+        },
+        {
+          "label": "ii.",
+          "answer": "Tighten your stomach",
+          "alternates": [],
+          "page": 119
+        },
+        {
+          "label": "iii.",
+          "answer": "Increase personal energy",
+          "alternates": [],
+          "page": 119
+        }
+      ],
+      "answer": "Scare your opponent; Tighten your stomach; Increase personal energy",
+      "page": 119,
+      "accepted_alternates": [],
+      "note": "Any order.",
+      "layout": {
+        "blank": "long",
+        "per_row": 1
+      }
+    },
+    {
+      "id": 19,
+      "section": "B. Rules, Virtues & Principles",
+      "type": "fill",
+      "prompt": "What are the seven criteria required for a good kata performance?",
+      "parts": [
+        {
+          "label": "i.",
+          "answer": "Correct breathing",
+          "alternates": [],
+          "page": 122
+        },
+        {
+          "label": "ii.",
+          "answer": "Power",
+          "alternates": [],
+          "page": 122
+        },
+        {
+          "label": "iii.",
+          "answer": "Speed",
+          "alternates": [],
+          "page": 122
+        },
+        {
+          "label": "iv.",
+          "answer": "Timing",
+          "alternates": [],
+          "page": 122
+        },
+        {
+          "label": "v.",
+          "answer": "Balance",
+          "alternates": [],
+          "page": 122
+        },
+        {
+          "label": "vi.",
+          "answer": "Focus",
+          "alternates": [],
+          "page": 122
+        },
+        {
+          "label": "vii.",
+          "answer": "Fighting spirit",
+          "alternates": [],
+          "page": 122
+        }
+      ],
+      "answer": "Correct breathing; Power; Speed; Timing; Balance; Focus; Fighting spirit",
+      "page": 122,
+      "accepted_alternates": [],
+      "note": "Any order.",
+      "layout": {
+        "blank": "mid",
+        "per_row": 3
+      }
+    },
+    {
+      "id": 20,
+      "section": "B. Rules, Virtues & Principles",
+      "type": "fill",
+      "prompt": "What are the six techniques involved in a good sparring punch or kick?",
+      "parts": [
+        {
+          "label": "i.",
+          "answer": "Good form",
+          "alternates": [],
+          "page": 123
+        },
+        {
+          "label": "ii.",
+          "answer": "Correct attitude",
+          "alternates": [],
+          "page": 123
+        },
+        {
+          "label": "iii.",
+          "answer": "Vigorous application",
+          "alternates": [],
+          "page": 123
+        },
+        {
+          "label": "iv.",
+          "answer": "Zanshin (perfect finish)",
+          "alternates": [
+            "Zanshin",
+            "Perfect finish"
+          ],
+          "page": 123
+        },
+        {
+          "label": "v.",
+          "answer": "Proper timing",
+          "alternates": [],
+          "page": 123
+        },
+        {
+          "label": "vi.",
+          "answer": "Correct distance",
+          "alternates": [],
+          "page": 123
+        }
+      ],
+      "answer": "Good form; Correct attitude; Vigorous application; Zanshin (perfect finish); Proper timing; Correct distance",
+      "page": 123,
+      "accepted_alternates": [],
+      "note": "Any order.",
+      "layout": {
+        "blank": "mid",
+        "per_row": 3
+      }
+    },
+    {
+      "id": 21,
+      "section": "B. Rules, Virtues & Principles",
+      "type": "fill",
+      "prompt": "What are the four rules for zenkutsu-dachi?",
+      "parts": [
+        {
+          "label": "i.",
+          "answer": "Front leg bent",
+          "alternates": [],
+          "page": [
+            116,
+            117
+          ]
+        },
+        {
+          "label": "ii.",
+          "answer": "Back leg straight",
+          "alternates": [],
+          "page": [
+            116,
+            117
+          ]
+        },
+        {
+          "label": "iii.",
+          "answer": "Hips facing forward",
+          "alternates": [],
+          "page": [
+            116,
+            117
+          ]
+        },
+        {
+          "label": "iv.",
+          "answer": "Feet as wide as your shoulders",
+          "alternates": [],
+          "page": [
+            116,
+            117
+          ]
+        }
+      ],
+      "answer": "Front leg bent; Back leg straight; Hips facing forward; Feet as wide as your shoulders",
+      "page": [
+        116,
+        117
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "mid",
+        "per_row": 2
+      }
+    },
+    {
+      "id": 22,
+      "section": "B. Rules, Virtues & Principles",
+      "type": "short",
+      "prompt": "What are the four motions of a kick (in order)?",
+      "answer": "Up, Out, Back, Down",
+      "page": [
+        116,
+        117
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "long"
+      }
+    },
+    {
+      "id": 23,
+      "section": "B. Rules, Virtues & Principles",
+      "type": "short",
+      "prompt": "What is shomen?",
+      "answer": "The front of a dojo",
+      "page": 128,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short"
+      }
+    },
+    {
+      "id": 24,
+      "section": "B. Rules, Virtues & Principles",
+      "type": "short",
+      "prompt": "What is the purpose of Katsu Dojo's Todi?",
+      "answer": "Black-belt entrance",
+      "page": 128,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short"
+      }
+    },
+    {
+      "id": 25,
+      "section": "B. Rules, Virtues & Principles",
+      "type": "short",
+      "prompt": "What does menjo mean?",
+      "answer": "Diploma",
+      "page": 127,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short"
+      }
+    },
+    {
+      "id": 26,
+      "section": "B. Rules, Virtues & Principles",
+      "type": "short",
+      "prompt": "What does Bunkai & Oyo mean?",
+      "answer": "Explanation & application",
+      "page": 126,
+      "accepted_alternates": [
+        "Explaination & application"
+      ],
+      "note": "The manual spells it 'Explaination'.",
+      "layout": {
+        "blank": "short"
+      }
+    },
+    {
+      "id": 27,
+      "section": "B. Rules, Virtues & Principles",
+      "type": "short",
+      "prompt": "What is the purpose of Ten Shin?",
+      "answer": "Step out of the way of an attacker",
+      "page": 126,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "long"
+      }
+    },
+    {
+      "id": 28,
+      "section": "C. Stances (Matching)",
+      "type": "match",
+      "prompt": "Write the letter of the correct meaning next to each stance.",
+      "options": [
+        "A. \"T\" stance",
+        "B. Back stance",
+        "C. Cat stance",
+        "D. Attention stance",
+        "E. Wide stance",
+        "F. Feet together stance",
+        "G. Crane foot stance",
+        "H. Front stance",
+        "I. \"X\" stance",
+        "J. Natural stance",
+        "K. V-stance",
+        "L. Half-front stance"
+      ],
+      "pairs": [
+        {
+          "label": "a.",
+          "left": "Musubi-dachi",
+          "right": "Attention stance",
+          "letter": "D",
+          "page": 118
+        },
+        {
+          "label": "b.",
+          "left": "Yoi-dachi",
+          "right": "Natural stance",
+          "letter": "J",
+          "page": 118
+        },
+        {
+          "label": "c.",
+          "left": "Zenkutsu-dachi",
+          "right": "Front stance",
+          "letter": "H",
+          "page": 118
+        },
+        {
+          "label": "d.",
+          "left": "Shiko-dachi",
+          "right": "Wide stance",
+          "letter": "E",
+          "page": 118
+        },
+        {
+          "label": "e.",
+          "left": "Hanzenkutsu-dachi",
+          "right": "Half-front stance",
+          "letter": "L",
+          "page": 118
+        },
+        {
+          "label": "f.",
+          "left": "Neko ashi-dachi",
+          "right": "Cat stance",
+          "letter": "C",
+          "page": 118
+        },
+        {
+          "label": "g.",
+          "left": "Kosa-dachi",
+          "right": "\"X\" stance",
+          "letter": "I",
+          "page": 118
+        },
+        {
+          "label": "h.",
+          "left": "Heisoku-dachi",
+          "right": "Feet together stance",
+          "letter": "F",
+          "page": 119
+        },
+        {
+          "label": "i.",
+          "left": "Kokutsu-dachi",
+          "right": "Back stance",
+          "letter": "B",
+          "page": 122
+        },
+        {
+          "label": "j.",
+          "left": "Re no ji-dachi",
+          "right": "V-stance",
+          "letter": "K",
+          "page": 124
+        },
+        {
+          "label": "k.",
+          "left": "Ten no ji-dachi",
+          "right": "\"T\" stance",
+          "letter": "A",
+          "page": 127
+        },
+        {
+          "label": "l.",
+          "left": "Sagi ashi-dachi",
+          "right": "Crane foot stance",
+          "letter": "G",
+          "page": 128
+        }
+      ],
+      "answer": "a-D Musubi-dachi = Attention stance; b-J Yoi-dachi = Natural stance; c-H Zenkutsu-dachi = Front stance; d-E Shiko-dachi = Wide stance; e-L Hanzenkutsu-dachi = Half-front stance; f-C Neko ashi-dachi = Cat stance; g-I Kosa-dachi = \"X\" stance; h-F Heisoku-dachi = Feet together stance; i-B Kokutsu-dachi = Back stance; j-K Re no ji-dachi = V-stance; k-A Ten no ji-dachi = \"T\" stance; l-G Sagi ashi-dachi = Crane foot stance",
+      "page": [
+        118,
+        119,
+        122,
+        124,
+        127,
+        128
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "header": [
+        "Stance",
+        "Meaning"
+      ]
+    },
+    {
+      "id": 29,
+      "section": "D. Techniques",
+      "type": "short",
+      "prompt": "What part of the hand do you punch with?",
+      "answer": "The first two knuckles",
+      "page": [
+        116,
+        117
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "long"
+      }
+    },
+    {
+      "id": 30,
+      "section": "D. Techniques",
+      "type": "fill",
+      "prompt": "Do the following blocks come from the inside or the outside?",
+      "parts": [
+        {
+          "label": "Down-block",
+          "answer": "Inside",
+          "alternates": [],
+          "page": [
+            116,
+            117
+          ]
+        },
+        {
+          "label": "Head-block",
+          "answer": "Inside",
+          "alternates": [],
+          "page": [
+            116,
+            117
+          ]
+        },
+        {
+          "label": "Side-block",
+          "answer": "Outside",
+          "alternates": [],
+          "page": [
+            116,
+            117
+          ]
+        }
+      ],
+      "answer": "Down-block: Inside; Head-block: Inside; Side-block: Outside",
+      "page": [
+        116,
+        117
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short",
+        "per_row": 3,
+        "blank_w": "6em"
+      }
+    },
+    {
+      "id": 31,
+      "section": "D. Techniques",
+      "type": "fill",
+      "prompt": "Punches. What do these mean?",
+      "parts": [
+        {
+          "label": "Tsuki",
+          "answer": "Punch",
+          "alternates": [],
+          "page": 118
+        },
+        {
+          "label": "Gyaku-zuki",
+          "answer": "Reverse punch",
+          "alternates": [],
+          "page": 119
+        },
+        {
+          "label": "Awase-zuki",
+          "answer": "\"U\" punch",
+          "alternates": [
+            "U punch"
+          ],
+          "page": 119
+        },
+        {
+          "label": "Jodan-zuki",
+          "answer": "Head punch",
+          "alternates": [],
+          "page": 120
+        },
+        {
+          "label": "Chudan-zuki",
+          "answer": "Center punch",
+          "alternates": [],
+          "page": 120
+        }
+      ],
+      "answer": "Tsuki: Punch; Gyaku-zuki: Reverse punch; Awase-zuki: \"U\" punch; Jodan-zuki: Head punch; Chudan-zuki: Center punch",
+      "page": [
+        118,
+        119,
+        120
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "mid",
+        "per_row": 2
+      }
+    },
+    {
+      "id": 32,
+      "section": "D. Techniques",
+      "type": "fill",
+      "prompt": "Hand strikes. What are these?",
+      "parts": [
+        {
+          "label": "Empi",
+          "answer": "Elbow strike",
+          "alternates": [],
+          "page": 119
+        },
+        {
+          "label": "Shuto",
+          "answer": "Chop",
+          "alternates": [],
+          "page": 120
+        },
+        {
+          "label": "Kentsui",
+          "answer": "Hammer fist",
+          "alternates": [],
+          "page": 122
+        },
+        {
+          "label": "Nukite",
+          "answer": "Spear hand",
+          "alternates": [],
+          "page": 122
+        },
+        {
+          "label": "Udaken",
+          "answer": "Back fist",
+          "alternates": [],
+          "page": 123
+        },
+        {
+          "label": "Shote",
+          "answer": "Palm strike",
+          "alternates": [],
+          "page": 126
+        }
+      ],
+      "answer": "Empi: Elbow strike; Shuto: Chop; Kentsui: Hammer fist; Nukite: Spear hand; Udaken: Back fist; Shote: Palm strike",
+      "page": [
+        119,
+        120,
+        122,
+        123,
+        126
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "mid",
+        "per_row": 2
+      }
+    },
+    {
+      "id": 33,
+      "section": "D. Techniques",
+      "type": "fill",
+      "prompt": "Kicks. What are these?",
+      "parts": [
+        {
+          "label": "Keri",
+          "answer": "Kick",
+          "alternates": [],
+          "page": 118
+        },
+        {
+          "label": "Mawashi-geri",
+          "answer": "Roundhouse kick",
+          "alternates": [],
+          "page": 120
+        },
+        {
+          "label": "Ushiro-geri",
+          "answer": "Back kick",
+          "alternates": [],
+          "page": 121
+        },
+        {
+          "label": "Ura mawashi-geri",
+          "answer": "Reverse roundhouse kick",
+          "alternates": [],
+          "page": 123
+        },
+        {
+          "label": "Tobi nidan-geri",
+          "answer": "Jumping double kick",
+          "alternates": [],
+          "page": 126
+        },
+        {
+          "label": "Suwari-geri",
+          "answer": "Squat kicks",
+          "alternates": [
+            "Squat kick"
+          ],
+          "page": 119
+        }
+      ],
+      "answer": "Keri: Kick; Mawashi-geri: Roundhouse kick; Ushiro-geri: Back kick; Ura mawashi-geri: Reverse roundhouse kick; Tobi nidan-geri: Jumping double kick; Suwari-geri: Squat kicks",
+      "page": [
+        118,
+        120,
+        121,
+        123,
+        126,
+        119
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "mid",
+        "per_row": 2
+      }
+    },
+    {
+      "id": 34,
+      "section": "D. Techniques",
+      "type": "fill",
+      "prompt": "Blocks. What are these?",
+      "parts": [
+        {
+          "label": "Gedan-barai",
+          "answer": "Down-block",
+          "alternates": [],
+          "page": 119
+        },
+        {
+          "label": "Age-uke",
+          "answer": "Head-block",
+          "alternates": [],
+          "page": 119
+        },
+        {
+          "label": "Yoko-uke",
+          "answer": "Side-block",
+          "alternates": [],
+          "page": 119
+        },
+        {
+          "label": "Kosa-uke",
+          "answer": "X-block",
+          "alternates": [],
+          "page": 123
+        },
+        {
+          "label": "Soe-uke",
+          "answer": "Reinforced side-block",
+          "alternates": [],
+          "page": 123
+        }
+      ],
+      "answer": "Gedan-barai: Down-block; Age-uke: Head-block; Yoko-uke: Side-block; Kosa-uke: X-block; Soe-uke: Reinforced side-block",
+      "page": [
+        119,
+        123
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "mid",
+        "per_row": 2
+      }
+    },
+    {
+      "id": 35,
+      "section": "D. Techniques",
+      "type": "fill",
+      "prompt": "Sweeps, grabs & take downs. What are these?",
+      "parts": [
+        {
+          "label": "Ashi-barai",
+          "answer": "Leg sweep",
+          "alternates": [],
+          "page": 122
+        },
+        {
+          "label": "Kakate",
+          "answer": "Arm grab",
+          "alternates": [],
+          "page": 127
+        },
+        {
+          "label": "Nage Waza",
+          "answer": "Take down",
+          "alternates": [
+            "Naga Waza"
+          ],
+          "page": [
+            120,
+            127
+          ]
+        }
+      ],
+      "answer": "Ashi-barai: Leg sweep; Kakate: Arm grab; Nage Waza: Take down",
+      "page": [
+        122,
+        127,
+        120
+      ],
+      "accepted_alternates": [],
+      "note": "Spelled 'Naga Waza' on p. 120 and 'Nage Waza' on p. 127; same answer.",
+      "layout": {
+        "blank": "mid",
+        "per_row": 2
+      }
+    },
+    {
+      "id": 36,
+      "section": "D. Techniques",
+      "type": "short",
+      "prompt": "What does udetate seiken mean?",
+      "answer": "Knuckle pushups",
+      "page": 119,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short"
+      }
+    },
+    {
+      "id": 37,
+      "section": "D. Techniques",
+      "type": "fill",
+      "prompt": "What part of the foot do you strike with when using each kick?",
+      "parts": [
+        {
+          "label": "Mawashi-geri",
+          "answer": "Top of foot",
+          "alternates": [],
+          "page": 122
+        },
+        {
+          "label": "Ushiro-geri",
+          "answer": "Heel",
+          "alternates": [],
+          "page": 125
+        },
+        {
+          "label": "Ura mawashi-geri",
+          "answer": "Bottom of foot",
+          "alternates": [],
+          "page": 128
+        }
+      ],
+      "answer": "Mawashi-geri: Top of foot; Ushiro-geri: Heel; Ura mawashi-geri: Bottom of foot",
+      "page": [
+        122,
+        125,
+        128
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "mid",
+        "per_row": 2
+      }
+    },
+    {
+      "id": 38,
+      "section": "D. Techniques",
+      "type": "fill",
+      "prompt": "What two kicks are used in Moving Exercise #2?",
+      "parts": [
+        {
+          "label": "i.",
+          "answer": "Mae-geri",
+          "alternates": [],
+          "page": 128
+        },
+        {
+          "label": "ii.",
+          "answer": "Yoko-geri",
+          "alternates": [],
+          "page": 128
+        }
+      ],
+      "answer": "Mae-geri; Yoko-geri",
+      "page": 128,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "mid",
+        "per_row": 2
+      }
+    },
+    {
+      "id": 39,
+      "section": "D. Techniques",
+      "type": "short",
+      "prompt": "What part of your opponent's leg do you target for a leg-sweep?",
+      "answer": "Ankle area",
+      "page": 126,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short",
+        "newline": true
+      }
+    },
+    {
+      "id": 40,
+      "section": "D. Techniques",
+      "type": "short",
+      "prompt": "What type of punch does the attacker use in Take Down #7?",
+      "answer": "Head punch",
+      "page": 126,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short",
+        "newline": true
+      }
+    },
+    {
+      "id": 41,
+      "section": "E. Kumite & Scoring",
+      "type": "fill",
+      "prompt": "What do these mean?",
+      "parts": [
+        {
+          "label": "Kumite",
+          "answer": "Sparring",
+          "alternates": [],
+          "page": 120
+        },
+        {
+          "label": "Hajime",
+          "answer": "Begin",
+          "alternates": [],
+          "page": 120
+        },
+        {
+          "label": "Yame",
+          "answer": "Stop",
+          "alternates": [],
+          "page": 120
+        }
+      ],
+      "answer": "Kumite: Sparring; Hajime: Begin; Yame: Stop",
+      "page": 120,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "mid",
+        "per_row": 3
+      }
+    },
+    {
+      "id": 42,
+      "section": "E. Kumite & Scoring",
+      "type": "fill",
+      "prompt": "What do these mean?",
+      "parts": [
+        {
+          "label": "Ippon",
+          "answer": "Full point",
+          "alternates": [],
+          "page": 121
+        },
+        {
+          "label": "Waza ari",
+          "answer": "Half point",
+          "alternates": [],
+          "page": 121
+        },
+        {
+          "label": "Aka",
+          "answer": "Red",
+          "alternates": [],
+          "page": 121
+        },
+        {
+          "label": "Shiro",
+          "answer": "White",
+          "alternates": [],
+          "page": 121
+        }
+      ],
+      "answer": "Ippon: Full point; Waza ari: Half point; Aka: Red; Shiro: White",
+      "page": 121,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "mid",
+        "per_row": 2
+      }
+    },
+    {
+      "id": 43,
+      "section": "E. Kumite & Scoring",
+      "type": "short",
+      "prompt": "What part of the foot is in contact with the floor when moving in kumite?",
+      "answer": "Ball of foot",
+      "page": 121,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short",
+        "newline": true
+      }
+    },
+    {
+      "id": 44,
+      "section": "E. Kumite & Scoring",
+      "type": "fill",
+      "prompt": "What kumite equipment are you required to wear during sparring?",
+      "parts": [
+        {
+          "label": "i.",
+          "answer": "Hand pads",
+          "alternates": [],
+          "page": 121
+        },
+        {
+          "label": "ii.",
+          "answer": "Mouth guard",
+          "alternates": [],
+          "page": 121
+        },
+        {
+          "label": "iii.",
+          "answer": "Shin/foot guards",
+          "alternates": [],
+          "page": 121
+        },
+        {
+          "label": "iv.",
+          "answer": "Head gear (kids only)",
+          "alternates": [],
+          "page": 121
+        },
+        {
+          "label": "v.",
+          "answer": "Groin cup (males only)",
+          "alternates": [],
+          "page": 121
+        }
+      ],
+      "answer": "Hand pads; Mouth guard; Shin/foot guards; Head gear (kids only); Groin cup (males only)",
+      "page": 121,
+      "accepted_alternates": [],
+      "note": "Any order.",
+      "layout": {
+        "blank": "mid",
+        "per_row": 3
+      }
+    },
+    {
+      "id": 45,
+      "section": "E. Kumite & Scoring",
+      "type": "short",
+      "prompt": "How many points do you need to win a shobu sanbon kumite match?",
+      "answer": "Three",
+      "page": 123,
+      "accepted_alternates": [
+        "3"
+      ],
+      "note": "",
+      "layout": {
+        "blank": "short",
+        "newline": true
+      }
+    },
+    {
+      "id": 46,
+      "section": "F. Body Parts (Matching)",
+      "type": "match",
+      "prompt": "Write the letter of the correct body part.",
+      "options": [
+        "A. Back",
+        "B. Knee",
+        "C. Head",
+        "D. Stomach",
+        "E. Foot or leg",
+        "F. Neck",
+        "G. Arm",
+        "H. Chest",
+        "I. Elbow",
+        "J. Hand"
+      ],
+      "pairs": [
+        {
+          "label": "a.",
+          "left": "Atama",
+          "right": "Head",
+          "letter": "C",
+          "page": 119
+        },
+        {
+          "label": "b.",
+          "left": "Te",
+          "right": "Hand",
+          "letter": "J",
+          "page": 119
+        },
+        {
+          "label": "c.",
+          "left": "Ude",
+          "right": "Arm",
+          "letter": "G",
+          "page": 119
+        },
+        {
+          "label": "d.",
+          "left": "Ashi",
+          "right": "Foot or leg",
+          "letter": "E",
+          "page": 119
+        },
+        {
+          "label": "e.",
+          "left": "Hiza",
+          "right": "Knee",
+          "letter": "B",
+          "page": 119
+        },
+        {
+          "label": "f.",
+          "left": "Mune",
+          "right": "Chest",
+          "letter": "H",
+          "page": 121
+        },
+        {
+          "label": "g.",
+          "left": "Onaka",
+          "right": "Stomach",
+          "letter": "D",
+          "page": 121
+        },
+        {
+          "label": "h.",
+          "left": "Hiji",
+          "right": "Elbow",
+          "letter": "I",
+          "page": 121
+        },
+        {
+          "label": "i.",
+          "left": "Kubi",
+          "right": "Neck",
+          "letter": "F",
+          "page": 121
+        },
+        {
+          "label": "j.",
+          "left": "Senaka",
+          "right": "Back",
+          "letter": "A",
+          "page": 121
+        }
+      ],
+      "answer": "a-C Atama = Head; b-J Te = Hand; c-G Ude = Arm; d-E Ashi = Foot or leg; e-B Hiza = Knee; f-H Mune = Chest; g-D Onaka = Stomach; h-I Hiji = Elbow; i-F Kubi = Neck; j-A Senaka = Back",
+      "page": [
+        119,
+        121
+      ],
+      "accepted_alternates": [
+        "Ashi: foot OR leg both accepted"
+      ],
+      "note": "",
+      "header": [
+        "Japanese",
+        "English"
+      ]
+    },
+    {
+      "id": 47,
+      "section": "F. Body Parts (Matching)",
+      "type": "match",
+      "prompt": "Write the letter of the correct body part.",
+      "options": [
+        "A. Toes",
+        "B. Eyes",
+        "C. Wrist",
+        "D. Chin",
+        "E. Heel",
+        "F. Nose",
+        "G. Ankles",
+        "H. Ears",
+        "I. Finger",
+        "J. Throat"
+      ],
+      "pairs": [
+        {
+          "label": "a.",
+          "left": "Ago",
+          "right": "Chin",
+          "letter": "D",
+          "page": 123
+        },
+        {
+          "label": "b.",
+          "left": "Nodo",
+          "right": "Throat",
+          "letter": "J",
+          "page": 123
+        },
+        {
+          "label": "c.",
+          "left": "Hana",
+          "right": "Nose",
+          "letter": "F",
+          "page": 123
+        },
+        {
+          "label": "d.",
+          "left": "Mimi",
+          "right": "Ears",
+          "letter": "H",
+          "page": 123
+        },
+        {
+          "label": "e.",
+          "left": "Me",
+          "right": "Eyes",
+          "letter": "B",
+          "page": 123
+        },
+        {
+          "label": "f.",
+          "left": "Ashikubi",
+          "right": "Ankles",
+          "letter": "G",
+          "page": 124
+        },
+        {
+          "label": "g.",
+          "left": "Ashiyubi",
+          "right": "Toes",
+          "letter": "A",
+          "page": 124
+        },
+        {
+          "label": "h.",
+          "left": "Yubi",
+          "right": "Finger",
+          "letter": "I",
+          "page": 124
+        },
+        {
+          "label": "i.",
+          "left": "Kakato",
+          "right": "Heel",
+          "letter": "E",
+          "page": 124
+        },
+        {
+          "label": "j.",
+          "left": "Tekubi",
+          "right": "Wrist",
+          "letter": "C",
+          "page": 124
+        }
+      ],
+      "answer": "a-D Ago = Chin; b-J Nodo = Throat; c-F Hana = Nose; d-H Mimi = Ears; e-B Me = Eyes; f-G Ashikubi = Ankles; g-A Ashiyubi = Toes; h-I Yubi = Finger; i-E Kakato = Heel; j-C Tekubi = Wrist",
+      "page": [
+        123,
+        124
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "header": [
+        "Japanese",
+        "English"
+      ]
+    },
+    {
+      "id": 48,
+      "section": "G. Words, Numbers, Colors & Kanji",
+      "type": "fill",
+      "prompt": "What do these mean?",
+      "parts": [
+        {
+          "label": "Migi",
+          "answer": "Right",
+          "alternates": [],
+          "page": 120
+        },
+        {
+          "label": "Hidari",
+          "answer": "Left",
+          "alternates": [],
+          "page": 120
+        },
+        {
+          "label": "Ue",
+          "answer": "Above",
+          "alternates": [],
+          "page": 122
+        },
+        {
+          "label": "Shita",
+          "answer": "Below",
+          "alternates": [],
+          "page": 122
+        },
+        {
+          "label": "Uchi",
+          "answer": "Inside",
+          "alternates": [],
+          "page": 122
+        },
+        {
+          "label": "Soto",
+          "answer": "Outside",
+          "alternates": [],
+          "page": 122
+        }
+      ],
+      "answer": "Migi: Right; Hidari: Left; Ue: Above; Shita: Below; Uchi: Inside; Soto: Outside",
+      "page": [
+        120,
+        122
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "mid",
+        "per_row": 3
+      }
+    },
+    {
+      "id": 49,
+      "section": "G. Words, Numbers, Colors & Kanji",
+      "type": "fill",
+      "prompt": "What do these greetings mean?",
+      "parts": [
+        {
+          "label": "Konnichi Wa",
+          "answer": "Hello",
+          "alternates": [],
+          "page": 120
+        },
+        {
+          "label": "Sayonara",
+          "answer": "Goodbye",
+          "alternates": [],
+          "page": 120
+        },
+        {
+          "label": "Ohayo Gozaimasu",
+          "answer": "Good morning",
+          "alternates": [],
+          "page": 120
+        },
+        {
+          "label": "Konban Wa",
+          "answer": "Good evening",
+          "alternates": [],
+          "page": 120
+        }
+      ],
+      "answer": "Konnichi Wa: Hello; Sayonara: Goodbye; Ohayo Gozaimasu: Good morning; Konban Wa: Good evening",
+      "page": 120,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "mid",
+        "per_row": 2
+      }
+    },
+    {
+      "id": 50,
+      "section": "G. Words, Numbers, Colors & Kanji",
+      "type": "fill",
+      "prompt": "How do you say these in Japanese?",
+      "parts": [
+        {
+          "label": "Thank you very much",
+          "answer": "Domo arigato gozaimasu",
+          "alternates": [],
+          "page": 120
+        },
+        {
+          "label": "Please",
+          "answer": "Dozo",
+          "alternates": [],
+          "page": 120
+        },
+        {
+          "label": "I'm sorry",
+          "answer": "Gomen nasai",
+          "alternates": [
+            "Gomenasai"
+          ],
+          "page": 122
+        }
+      ],
+      "answer": "Thank you very much: Domo arigato gozaimasu; Please: Dozo; I'm sorry: Gomen nasai",
+      "page": [
+        120,
+        122
+      ],
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "short",
+        "per_row": 1
+      }
+    },
+    {
+      "id": 51,
+      "section": "G. Words, Numbers, Colors & Kanji",
+      "type": "fill",
+      "prompt": "Write the numbers from one to ten in Japanese.",
+      "parts": [
+        {
+          "label": "1",
+          "answer": "Ichi",
+          "alternates": [],
+          "page": 124
+        },
+        {
+          "label": "2",
+          "answer": "Ni",
+          "alternates": [],
+          "page": 124
+        },
+        {
+          "label": "3",
+          "answer": "San",
+          "alternates": [],
+          "page": 124
+        },
+        {
+          "label": "4",
+          "answer": "Shi",
+          "alternates": [],
+          "page": 124
+        },
+        {
+          "label": "5",
+          "answer": "Go",
+          "alternates": [],
+          "page": 124
+        },
+        {
+          "label": "6",
+          "answer": "Roku",
+          "alternates": [],
+          "page": 124
+        },
+        {
+          "label": "7",
+          "answer": "Shichi",
+          "alternates": [],
+          "page": 124
+        },
+        {
+          "label": "8",
+          "answer": "Hachi",
+          "alternates": [],
+          "page": 124
+        },
+        {
+          "label": "9",
+          "answer": "Kyu",
+          "alternates": [],
+          "page": 124
+        },
+        {
+          "label": "10",
+          "answer": "Jyu",
+          "alternates": [],
+          "page": 124
+        }
+      ],
+      "answer": "Ichi; Ni; San; Shi; Go; Roku; Shichi; Hachi; Kyu; Jyu",
+      "page": 124,
+      "accepted_alternates": [
+        "10: Ju / Juu also close enough"
+      ],
+      "note": "",
+      "layout": {
+        "blank": "num",
+        "per_row": 5
+      }
+    },
+    {
+      "id": 52,
+      "section": "G. Words, Numbers, Colors & Kanji",
+      "type": "fill",
+      "prompt": "What are these colors?",
+      "parts": [
+        {
+          "label": "Kuroi",
+          "answer": "Black",
+          "alternates": [],
+          "page": 125
+        },
+        {
+          "label": "Aoi",
+          "answer": "Blue",
+          "alternates": [],
+          "page": 125
+        },
+        {
+          "label": "Chairo",
+          "answer": "Brown",
+          "alternates": [],
+          "page": 125
+        },
+        {
+          "label": "Midori",
+          "answer": "Green",
+          "alternates": [],
+          "page": 125
+        },
+        {
+          "label": "Orenji",
+          "answer": "Orange",
+          "alternates": [],
+          "page": 125
+        },
+        {
+          "label": "Murasaki",
+          "answer": "Purple",
+          "alternates": [],
+          "page": 125
+        },
+        {
+          "label": "Akai",
+          "answer": "Red",
+          "alternates": [],
+          "page": 125
+        },
+        {
+          "label": "Shiroi",
+          "answer": "White",
+          "alternates": [],
+          "page": 125
+        },
+        {
+          "label": "Kiiroi",
+          "answer": "Yellow",
+          "alternates": [],
+          "page": 125
+        }
+      ],
+      "answer": "Kuroi: Black; Aoi: Blue; Chairo: Brown; Midori: Green; Orenji: Orange; Murasaki: Purple; Akai: Red; Shiroi: White; Kiiroi: Yellow",
+      "page": 125,
+      "accepted_alternates": [],
+      "note": "",
+      "layout": {
+        "blank": "mid",
+        "per_row": 3
+      }
+    },
+    {
+      "id": 53,
+      "section": "G. Words, Numbers, Colors & Kanji",
+      "type": "fill",
+      "prompt": "What do these kanji characters mean?",
+      "parts": [
+        {
+          "label": "日本",
+          "answer": "Japan",
+          "alternates": [],
+          "page": 125
+        },
+        {
+          "label": "空",
+          "answer": "Kara",
+          "alternates": [],
+          "page": 125
+        },
+        {
+          "label": "手",
+          "answer": "Te",
+          "alternates": [],
+          "page": 125
+        },
+        {
+          "label": "道",
+          "answer": "Do",
+          "alternates": [],
+          "page": 125
+        }
+      ],
+      "answer": "日本: Japan; 空: Kara; 手: Te; 道: Do",
+      "page": 125,
+      "accepted_alternates": [],
+      "note": "Kanji shown on p. 125; answers are the manual's (空 = Kara, 手 = Te, 道 = Do).",
+      "layout": {
+        "blank": "short",
+        "per_row": 2,
+        "kanji": true
+      }
+    },
+    {
+      "id": 54,
+      "section": "H. Kata",
+      "type": "fill",
+      "prompt": "Write out the names of all kata in order from white to brown/black belt, and their meanings.",
+      "parts": [
+        {
+          "label": "1",
+          "answer": "Shiho No Kata: Four direction kata",
+          "alternates": [],
+          "page": 129
+        },
+        {
+          "label": "2",
+          "answer": "Ten No Kata: Heavenly kata",
+          "alternates": [],
+          "page": 129
+        },
+        {
+          "label": "3",
+          "answer": "Kihon No Kata: Basic kata",
+          "alternates": [],
+          "page": 129
+        },
+        {
+          "label": "4",
+          "answer": "Chi No Kata: Earth kata",
+          "alternates": [],
+          "page": 129
+        },
+        {
+          "label": "5",
+          "answer": "Heian Shodan: Peaceful mind #1 kata",
+          "alternates": [
+            "Peaceful mind #1"
+          ],
+          "page": 129
+        },
+        {
+          "label": "6",
+          "answer": "Heian Nidan: Peaceful mind #2 kata",
+          "alternates": [
+            "Peaceful mind #2"
+          ],
+          "page": 129
+        },
+        {
+          "label": "7",
+          "answer": "Heian Sandan: Peaceful mind #3 kata",
+          "alternates": [
+            "Peaceful mind #3"
+          ],
+          "page": 129
+        },
+        {
+          "label": "8",
+          "answer": "Heian Yondan: Peaceful mind #4 kata",
+          "alternates": [
+            "Peaceful mind #4"
+          ],
+          "page": 129
+        },
+        {
+          "label": "9",
+          "answer": "Heian Godan: Peaceful mind #5 kata",
+          "alternates": [
+            "Peaceful mind #5"
+          ],
+          "page": 129
+        },
+        {
+          "label": "10",
+          "answer": "Jitte: Ten hands kata",
+          "alternates": [
+            "Ten hands"
+          ],
+          "page": 129
+        },
+        {
+          "label": "11",
+          "answer": "Jin: Named after a spirit",
+          "alternates": [],
+          "page": 129
+        },
+        {
+          "label": "12",
+          "answer": "Jion: Named after a temple in China",
+          "alternates": [
+            "Named after its temple of origin in China"
+          ],
+          "page": 129
+        },
+        {
+          "label": "13",
+          "answer": "Jyuroku: Sixteen kata",
+          "alternates": [
+            "Sixteen"
+          ],
+          "page": 129
+        },
+        {
+          "label": "14",
+          "answer": "Rouhai: Vision of a white heron",
+          "alternates": [],
+          "page": 129
+        }
+      ],
+      "answer": "Shiho No Kata: Four direction kata; Ten No Kata: Heavenly kata; Kihon No Kata: Basic kata; Chi No Kata: Earth kata; Heian Shodan: Peaceful mind #1 kata; Heian Nidan: Peaceful mind #2 kata; Heian Sandan: Peaceful mind #3 kata; Heian Yondan: Peaceful mind #4 kata; Heian Godan: Peaceful mind #5 kata; Jitte: Ten hands kata; Jin: Named after a spirit; Jion: Named after a temple in China; Jyuroku: Sixteen kata; Rouhai: Vision of a white heron",
+      "page": 129,
+      "accepted_alternates": [],
+      "note": "Order matters. p. 129; the belt-test pages (116–128) word some meanings slightly differently (alternates listed).",
+      "layout": {
+        "table": "kata"
+      }
+    },
+    {
+      "id": 55,
+      "section": "H. Kata",
+      "type": "match",
+      "prompt": "Each kata below is named as the new (or second) testing kata on one belt's written test. Write the letter of that belt.",
+      "options": [
+        "A. Yellow / White",
+        "B. Yellow (second testing kata)",
+        "C. Orange / White",
+        "D. Orange",
+        "E. Purple / White",
+        "F. Purple",
+        "G. Blue / White",
+        "H. Blue",
+        "I. Green / White",
+        "J. Green",
+        "K. Green / Brown",
+        "L. Brown / White",
+        "M. Brown"
+      ],
+      "pairs": [
+        {
+          "label": "a.",
+          "left": "Jin",
+          "right": "Green / Brown",
+          "letter": "K",
+          "page": 126
+        },
+        {
+          "label": "b.",
+          "left": "Heian Sandan",
+          "right": "Blue / White",
+          "letter": "G",
+          "page": 122
+        },
+        {
+          "label": "c.",
+          "left": "Chi No Kata",
+          "right": "Orange",
+          "letter": "D",
+          "page": 119
+        },
+        {
+          "label": "d.",
+          "left": "Jyuroku",
+          "right": "Brown",
+          "letter": "M",
+          "page": 128
+        },
+        {
+          "label": "e.",
+          "left": "Shiho No Kata",
+          "right": "Yellow / White",
+          "letter": "A",
+          "page": 116
+        },
+        {
+          "label": "f.",
+          "left": "Heian Godan",
+          "right": "Green / White",
+          "letter": "I",
+          "page": 124
+        },
+        {
+          "label": "g.",
+          "left": "Kihon No Kata",
+          "right": "Orange / White",
+          "letter": "C",
+          "page": 118
+        },
+        {
+          "label": "h.",
+          "left": "Jion",
+          "right": "Brown / White",
+          "letter": "L",
+          "page": 127
+        },
+        {
+          "label": "i.",
+          "left": "Heian Nidan",
+          "right": "Purple",
+          "letter": "F",
+          "page": 121
+        },
+        {
+          "label": "j.",
+          "left": "Ten No Kata",
+          "right": "Yellow (second testing kata)",
+          "letter": "B",
+          "page": 117
+        },
+        {
+          "label": "k.",
+          "left": "Jitte",
+          "right": "Green",
+          "letter": "J",
+          "page": 125
+        },
+        {
+          "label": "l.",
+          "left": "Heian Shodan",
+          "right": "Purple / White",
+          "letter": "E",
+          "page": 120
+        },
+        {
+          "label": "m.",
+          "left": "Heian Yondan",
+          "right": "Blue",
+          "letter": "H",
+          "page": 123
+        }
+      ],
+      "answer": "a-K Jin; b-G Heian Sandan; c-D Chi No Kata; d-M Jyuroku; e-A Shiho No Kata; f-I Heian Godan; g-C Kihon No Kata; h-L Jion; i-F Heian Nidan; j-B Ten No Kata; k-J Jitte; l-E Heian Shodan; m-H Heian Yondan",
+      "page": [
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "accepted_alternates": [],
+      "note": "Interpretation: the kata named on each belt's test page is treated as belonging to that belt. Shiho No Kata is also the 'first testing kata' on the Yellow test (p. 117).",
+      "header": [
+        "Kata",
+        "Belt written test"
+      ]
+    },
+    {
+      "id": 56,
+      "section": "I. Multiple Choice",
+      "type": "mc",
+      "prompt": "What does Rouhai mean?",
+      "options": [
+        "a) Sixteen",
+        "b) Named after a spirit",
+        "c) Vision of a white heron",
+        "d) Ten hands"
+      ],
+      "answer": "c) Vision of a white heron",
+      "page": 129,
+      "accepted_alternates": [],
+      "note": ""
+    },
+    {
+      "id": 57,
+      "section": "I. Multiple Choice",
+      "type": "mc",
+      "prompt": "What is Jion named after?",
+      "options": [
+        "a) A spirit",
+        "b) Its temple of origin in China",
+        "c) Heaven",
+        "d) The earth"
+      ],
+      "answer": "b) Its temple of origin in China",
+      "page": [
+        127,
+        129
+      ],
+      "accepted_alternates": [],
+      "note": ""
+    },
+    {
+      "id": 58,
+      "section": "I. Multiple Choice",
+      "type": "mc",
+      "prompt": "What is an uchiotoshi?",
+      "options": [
+        "a) Side hammerfist block",
+        "b) Reinforced side-block",
+        "c) Elbow & hammer fist block",
+        "d) X-block"
+      ],
+      "answer": "c) Elbow & hammer fist block",
+      "page": 121,
+      "accepted_alternates": [],
+      "note": ""
+    },
+    {
+      "id": 59,
+      "section": "I. Multiple Choice",
+      "type": "mc",
+      "prompt": "What is a yoko-barai?",
+      "options": [
+        "a) Down-block",
+        "b) Side hammerfist block",
+        "c) Side-block",
+        "d) Leg sweep"
+      ],
+      "answer": "b) Side hammerfist block",
+      "page": 126,
+      "accepted_alternates": [],
+      "note": ""
+    }
+  ]
+}
