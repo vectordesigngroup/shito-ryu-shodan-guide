@@ -23,8 +23,10 @@ jobs:
           fi
       - name: Publish to gh-pages
         run: |
-          mkdir -p /tmp/site
+          mkdir -p /tmp/site/data /tmp/site/js
           cp index.html shito-ryu-shodan-study-guide.pdf /tmp/site/
+          cp data/practice-test.json /tmp/site/data/
+          cp js/grade.js js/practice.js /tmp/site/js/
           touch /tmp/site/.nojekyll
           cd /tmp/site
           git init -q -b gh-pages
